@@ -1,6 +1,7 @@
 Мне надоело напрягать мозг и писать по-английски, поэтому здесь всё будет на русском.
 
 Скрипт меняет кота в меню "Бомбы" на кота-гуля как на токене, так и через ВК.
+
 Для работы скрипта нужно установить Tampermonkey:
 https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
 
