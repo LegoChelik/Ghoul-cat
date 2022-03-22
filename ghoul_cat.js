@@ -2,6 +2,8 @@
 // @name         Ghoul Cat
 // @version      0.1
 // @description  Replaces the cat in Pixel Battle with its ghoul version
+// @downloadUrl  https://raw.githubusercontent.com/LegoChelik/Ghoul-cat/main/ghoul_cat.js
+// @updateUrl    https://raw.githubusercontent.com/LegoChelik/Ghoul-cat/main/ghoul_cat.js
 // @author       vk.com/legoklyachik
 // @match        https://mmosg.ru/game.php?*
 // @icon         https://mmosg.ru/assets/hd_icon_world.png
