@@ -12,7 +12,7 @@
 function changeCat () {
   let el = document.getElementsByClassName('captchaWaitingContainer')[0];
   if (el) {
-    document.getElementsByClassName('captchaWaitingContainer')[0].lastElementChild.style['backgroundImage'] = 'url("https://media4.giphy.com/media/ie5CsRS33bDyz62bCL/giphy.gif?cid=790b761190d49ed00e7c90f827514a3073f49f78a34a4474&rid=giphy.gif&ct=g")'
+    document.getElementsByClassName('captchaWaitingContainer')[0].lastElementChild.style["backgroundImage"] = 'url("https://media4.giphy.com/media/ie5CsRS33bDyz62bCL/giphy.gif?cid=790b761190d49ed00e7c90f827514a3073f49f78a34a4474&rid=giphy.gif&ct=g")'
   } else {
     setTimeout(changeCat, 500);
   }
@@ -21,7 +21,7 @@ function changeCat () {
 function zxcCaptcha () {
   document.addEventListener('keypress', (event) => {
     let keyName = event.key;
-    let buttons = document.getElementsByClassName('optionCaptcha');
+    let buttons = document.getElementsByClassName('captchaOption');
     let clickEvent = new Event('click');
     if(keyName == "z" || keyName == "Z" || keyName == "я" || keyName == "Я"){
       buttons[0].dispatchEvent(clickEvent)
