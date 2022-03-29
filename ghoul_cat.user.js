@@ -21,7 +21,7 @@ function changeCat () {
 function zxcCaptcha () {
   document.addEventListener('keypress', (event) => {
     let keyName = event.key;
-    let buttons = document.getElementByClassName('optionCaptcha');
+    let buttons = document.getElementsByClassName('optionCaptcha');
     let clickEvent = new Event('click');
     if(keyName == "z" || keyName == "Z" || keyName == "я" || keyName == "Я"){
       buttons[0].dispatchEvent(clickEvent)
