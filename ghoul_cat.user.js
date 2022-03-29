@@ -22,14 +22,15 @@ function zxcCaptcha () {
   document.addEventListener('keypress', (event) => {
     let keyName = event.key;
     let buttons = document.getElementByClassName('optionCaptcha');
+    let clickEvent = new Event('click');
     if(keyName == "z" || keyName == "Z" || keyName == "я" || keyName == "Я"){
-      buttons[0].click()
+      buttons[0].dispatchEvent(clickEvent)
     }
     if(keyName == "x" || keyName == "X" || keyName == "ч" || keyName == "Ч"){
-      buttons[1].click()
+      buttons[1].dispatchEvent(clickEvent)
     }
     if(keyName == "c" || keyName == "C" || keyName == "с" || keyName == "С"){
-      buttons[2].click()
+      buttons[2].dispatchEvent(clickEvent)
     }
   })
 }
