@@ -22,7 +22,7 @@ function zxcCaptcha () {
   document.addEventListener('keypress', (event) => {
     let keyName = event.key;
     let buttons = document.getElementByClassName('optionCaptcha');
-    if(keyName == "z" || keyName == "" || keyName == "я" || keyName == "Я"){
+    if(keyName == "z" || keyName == "Z" || keyName == "я" || keyName == "Я"){
       buttons[0].click()
     }
     if(keyName == "x" || keyName == "X" || keyName == "ч" || keyName == "Ч"){
