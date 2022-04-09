@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         asd Bombs
-// @version      0.1
+// @version      0.2
 // @description  Allows to collect bombs with asd
 // @downloadUrl  https://raw.githubusercontent.com/LegoChelik/Ghoul-cat/main/asdBombs.user.js
 // @updateUrl    https://raw.githubusercontent.com/LegoChelik/Ghoul-cat/main/asdBombs.user.js
@@ -14,13 +14,13 @@ function asdCaptcha () {
     let keyName = event.key;
     let buttons = document.getElementsByClassName('captchaOption');
     let clickEvent = new Event('click');
-    if(keyName == "a" || keyName == "A" || keyName == "ф" || keyName == "Ф"){
+    if(keyName.match(/(A|Ф)/i)){
       buttons[0].dispatchEvent(clickEvent)
     }
-    if(keyName == "s" || keyName == "S" || keyName == "ы" || keyName == "Ы"){
+    if(keyName.match(/(S|Ы)/i)){
       buttons[1].dispatchEvent(clickEvent)
     }
-    if(keyName == "d" || keyName == "D" || keyName == "в" || keyName == "В"){
+    if(keyName.match(/(D|В)/i)){
       buttons[2].dispatchEvent(clickEvent)
     }
   })
