@@ -7,13 +7,11 @@ https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldm
 
 Затем перейти по следующей ссылке, нажать "Raw" и "Установить":
 https://github.com/LegoChelik/Ghoul-cat/blob/main/ghoul_cat.user.js
-(если не работает, перейдите по https://github.com/LegoChelik/Ghoul-cat/raw/main/ghoul_cat.user.js и нажмите "Установить")
 
 Поздравляю, вы стали обладателем замечательного кота-гуля, можете гордиться собой!
 
 Если вы Дима Савушко или лютый каэсер, можете установить второй скрипт, позволяющий решать капчу на A S D (установка такая же):
 https://github.com/LegoChelik/Ghoul-cat/blob/main/asdBombs.user.js
-(если не работает, перейдите по https://github.com/LegoChelik/Ghoul-cat/raw/main/asdBombs.user.js и нажмите "Установить")
 
 Если ваш браузер скачивает файл, вместо установки скрипта, Вам придётся:
 
